@@ -1,4 +1,4 @@
-﻿using OpenTK;
+using OpenTK;
 using OpenTK.Graphics.OpenGL;
 using System;
 using System.Drawing;
@@ -27,11 +27,11 @@ namespace OpenTK3_StandardTemplate_WinForms.helpers
             for (int i = 0; i < 6; i++)
                 Color[i] = Randomizer.GetRandomColor();
 
-            LoadTextures();
+            //LoadTextures();
         }
 
         // Metoda pentru încărcarea texturii
-        private void LoadTextures()
+        /*private void LoadTextures()
         {
             GL.GenTextures(textures.Length, textures);
             LoadTexture(textures[0], "brickTexture.jpg");
@@ -55,7 +55,7 @@ namespace OpenTK3_StandardTemplate_WinForms.helpers
 
             GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (float)TextureMinFilter.Linear);
             GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (float)TextureMagFilter.Linear);
-        }
+        }*/
 
         public static Object3D ParseFromText(string line)
         {
@@ -87,7 +87,7 @@ namespace OpenTK3_StandardTemplate_WinForms.helpers
             GL.Rotate(Rotation.Z, 0, 0, 1);
             GL.Scale(Scale);
 
-            if(texture == true)
+            /*if(texture == true)
             {
                 if(number == 1)
                 {
@@ -132,46 +132,46 @@ namespace OpenTK3_StandardTemplate_WinForms.helpers
                 GL.Vertex3(1.0f, -1.0f, 1.0f);
             }
             else 
-            {
-                GL.Disable(EnableCap.Texture2D);
-                GL.Begin(PrimitiveType.Quads);
+            {*/
+                //GL.Disable(EnableCap.Texture2D);
+            GL.Begin(PrimitiveType.Quads);
 
-                GL.Color3(Color[0]);
-                GL.Vertex3(-1.0f, -1.0f, -1.0f);
-                GL.Vertex3(-1.0f, 1.0f, -1.0f);
-                GL.Vertex3(1.0f, 1.0f, -1.0f);
-                GL.Vertex3(1.0f, -1.0f, -1.0f);
+            GL.Color3(Color[0]);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
 
-                GL.Color3(Color[1]);
-                GL.Vertex3(-1.0f, -1.0f, -1.0f);
-                GL.Vertex3(1.0f, -1.0f, -1.0f);
-                GL.Vertex3(1.0f, -1.0f, 1.0f);
-                GL.Vertex3(-1.0f, -1.0f, 1.0f);
+            GL.Color3(Color[1]);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
 
-                GL.Color3(Color[2]);
-                GL.Vertex3(-1.0f, -1.0f, -1.0f);
-                GL.Vertex3(-1.0f, -1.0f, 1.0f);
-                GL.Vertex3(-1.0f, 1.0f, 1.0f);
-                GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Color3(Color[2]);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
 
-                GL.Color3(Color[3]);
-                GL.Vertex3(-1.0f, -1.0f, 1.0f);
-                GL.Vertex3(1.0f, -1.0f, 1.0f);
-                GL.Vertex3(1.0f, 1.0f, 1.0f);
-                GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Color3(Color[3]);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
 
-                GL.Color3(Color[4]);
-                GL.Vertex3(-1.0f, 1.0f, -1.0f);
-                GL.Vertex3(-1.0f, 1.0f, 1.0f);
-                GL.Vertex3(1.0f, 1.0f, 1.0f);
-                GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Color3(Color[4]);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
 
-                GL.Color3(Color[5]);
-                GL.Vertex3(1.0f, -1.0f, -1.0f);
-                GL.Vertex3(1.0f, 1.0f, -1.0f);
-                GL.Vertex3(1.0f, 1.0f, 1.0f);
-                GL.Vertex3(1.0f, -1.0f, 1.0f);
-            }
+            GL.Color3(Color[5]);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            //}
 
             GL.End();
             GL.PopMatrix();
