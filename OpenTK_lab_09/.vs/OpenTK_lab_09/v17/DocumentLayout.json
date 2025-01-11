@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{540F1C1E-8718-463A-A881-8DD1B93891A9}|OpenTK_winforms_z02\\OpenTK_winforms_z02.csproj|c:\\users\\asus\\desktop\\egc tema\\opentk_lab_09\\opentk_winforms_z02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540F1C1E-8718-463A-A881-8DD1B93891A9}|OpenTK_winforms_z02\\OpenTK_winforms_z02.csproj|solutionrelative:opentk_winforms_z02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540F1C1E-8718-463A-A881-8DD1B93891A9}|OpenTK_winforms_z02\\OpenTK_winforms_z02.csproj|c:\\users\\asus\\desktop\\egc tema\\opentk_lab_09\\opentk_winforms_z02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{540F1C1E-8718-463A-A881-8DD1B93891A9}|OpenTK_winforms_z02\\OpenTK_winforms_z02.csproj|solutionrelative:opentk_winforms_z02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540F1C1E-8718-463A-A881-8DD1B93891A9}|OpenTK_winforms_z02\\OpenTK_winforms_z02.csproj|C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\opentk_winforms_z02\\lightsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540F1C1E-8718-463A-A881-8DD1B93891A9}|OpenTK_winforms_z02\\OpenTK_winforms_z02.csproj|solutionrelative:opentk_winforms_z02\\lightsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\OpenTK_winforms_z02\\Form1.cs",
+              "RelativeDocumentMoniker": "OpenTK_winforms_z02\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\OpenTK_winforms_z02\\Form1.cs [Design]",
+              "RelativeToolTip": "OpenTK_winforms_z02\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T20:07:14.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightSource.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\OpenTK_winforms_z02\\LightSource.cs",
+              "RelativeDocumentMoniker": "OpenTK_winforms_z02\\LightSource.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\OpenTK_winforms_z02\\LightSource.cs",
+              "RelativeToolTip": "OpenTK_winforms_z02\\LightSource.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:01:18.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\OpenTK_winforms_z02\\Form1.cs",
+              "RelativeDocumentMoniker": "OpenTK_winforms_z02\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\EGC Tema\\OpenTK_lab_09\\OpenTK_winforms_z02\\Form1.cs",
+              "RelativeToolTip": "OpenTK_winforms_z02\\Form1.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAIwBACAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:23:53.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
