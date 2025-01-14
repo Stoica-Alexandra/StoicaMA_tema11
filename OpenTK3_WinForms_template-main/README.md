@@ -1,1 +1,0 @@
-# OpenTK3_WinForms_template
